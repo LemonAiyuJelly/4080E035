@@ -203,6 +203,7 @@ https://www.youtube.com/watch?v=tOj8MSEIbfA
 
 ### TCP （Transmission Control Protocol）
 
+![image](phpSzMdpH.png)
 ```
 可靠性:能確保傳輸的封包正確，確認是否有收到，封包格是正確，回傳時也正確。
 

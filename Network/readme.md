@@ -156,6 +156,17 @@ tracert www.pchome.com.tw
 追蹤完成。
 
 ```
+
+# Transport層協定:TCP(可靠的reliable) vs UDP (不可靠的unreliable)
+```
+何謂(可靠的reliable) vs (不可靠的unreliable)?
+都(不可靠的unreliable)了,為何要用??
+如何達到(可靠的reliable)?<----封包格式的設計
+```
+```
+TCP vs UDP Comparison
+https://www.youtube.com/watch?v=uwoD5YsGACg
+```
 ### TCP vs UDP 
 ```
 TCP vs UDP Comparison
@@ -178,9 +189,24 @@ FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
 
-### DNS
+### RFID
+```
+無線射頻辨識（英語：Radio Frequency IDentification，縮寫：RFID）
+是一種無線通訊技術，可以通過無線電訊號識別特定目標並讀寫相關數據，而無需識別系統與特定目標之間建立機械或者光學接觸。
 ```
 
+### NFC
+```
+近距離無線通訊（英語：Near-field communication，NFC）
+又簡稱近距離通訊或近場通訊，是一套通訊協定，讓兩個電子裝置，（其中一個通常是行動裝置，例如智慧型手機）在相距幾公分之內進行通訊。
+```
+
+### TCP （Transmission Control Protocol）
+
+```
+可靠性:能確保傳輸的封包正確，確認是否有收到，封包格是正確，回傳時也正確。
+
+不可靠性：傳輸的資料不管有沒有錯誤，都不會重新確認，不會受到影響的都可以接受。
 ```
 
 ### DNS

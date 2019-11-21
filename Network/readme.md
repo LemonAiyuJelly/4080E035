@@ -89,6 +89,8 @@ MAC Address
 Internet Control Message Protocol
 ```
 #### ICMP Message Format封包格式:
+
+![ICMP 封包格式](icmp_header.gif)
 ```
 ICMP 封包格式，其各欄位功能如下：
 ● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 5-2 所示。
@@ -140,6 +142,17 @@ tracert www.pchome.com.tw
   6     *        *        *     要求等候逾時。
   7     *        *        *     要求等候逾時。
   8     *        *        *     要求等候逾時。
+```
+```
+在上限 30 個躍點上
+追蹤 www.ksu.edu.tw [120.114.100.65] 的路由:
+
+  1     4 ms     7 ms     7 ms  172.20.155.254
+  2    <1 ms    <1 ms    <1 ms  120-114-50-230.ksu.edu.tw [120.114.50.230]
+  3    <1 ms    <1 ms    <1 ms  eng.www.ksu.edu.tw [120.114.100.65]
+
+追蹤完成。
+
 ```
 ### TCP vs UDP 
 ```

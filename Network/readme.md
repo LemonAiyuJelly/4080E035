@@ -96,12 +96,6 @@ ICMP 封包格式，其各欄位功能如下：
 ● 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
 ```
-```
-ping 
-tracert| Traceroute
-如何使用 TRACERT 疑難排解 Windows 中的 TCP/IP 問題
-https://support.microsoft.com/zh-tw/help/314868/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows
-```
 ### Message Type
 ```
 ICMP 訊息功能

@@ -1,6 +1,6 @@
 # 🔹 Ex. 資料夾/Folder/フォルダ
 > #### flask_Blog
->>####flaskblog
+>>#### flaskblog
 >>> #### __pycahe__
 >>> #### static
 >>>> #### .css

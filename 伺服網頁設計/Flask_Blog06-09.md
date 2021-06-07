@@ -15,7 +15,7 @@
 # ⚠新增檔案
 > #### templates
 >> ### create_post.html
->> ### post.hyml
+>> ### post.html
 # 🔹forms.py
 ```
 from flask_wtf import FlaskForm

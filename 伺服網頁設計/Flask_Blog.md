@@ -1,8 +1,7 @@
 # 🔹 Ex. 資料夾/Folder/フォルダ
 > #### flask_Blog
->> #### __pycahe__
->> #### .vscode
->> #### flaskblog
+>>####flaskblog
+>>> #### __pycahe__
 >>> #### static
 >>>> #### .css
 >>> #### templates

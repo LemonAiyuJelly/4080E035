@@ -16,7 +16,7 @@
 > ### templates
 >> ### create_post.html
 >> ### post.html
-# 🔹forms.py
+# ✨forms.py
 ```
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
@@ -82,7 +82,7 @@ class PostForm(FlaskForm):
     submit = SubmitField('Post')
  ```
 ---
-# 🔹models.py
+# ✨models.py
 ```
 from datetime import datetime
 from flaskblog import db, login_manager
@@ -117,7 +117,7 @@ class Post(db.Model):
         return f"Post('{self.title}', '{self.date_posted}')"
 ```
 ---
-# 🔹routes.py
+# ✨routes.py
 ```
 import os
 import secrets
@@ -265,7 +265,7 @@ def delete_post(post_id):
     return redirect(url_for('home'))
 ```
 ---
-# 🔹create_post.html
+# ✨create_post.html
 ```
 {% extends "layout.html" %}
 {% block content %}
@@ -309,7 +309,7 @@ def delete_post(post_id):
 {% endblock content %}
 ```
 ---
-# 🔹post.html
+# ✨post.html
 ```
 {% extends "layout.html" %}
 {% block content %}

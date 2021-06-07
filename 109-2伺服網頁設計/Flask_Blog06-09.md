@@ -13,7 +13,7 @@
 >> #### run.py
 ---
 # ⚠新增檔案
-> #### templates
+> ### templates
 >> ### create_post.html
 >> ### post.html
 # 🔹forms.py
